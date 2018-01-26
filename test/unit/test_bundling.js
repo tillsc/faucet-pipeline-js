@@ -32,7 +32,7 @@ console.log(\`[…] $\{util}\`); // eslint-disable-line no-console
 			source: "./src/index.js",
 			target: "./dist/bundle.js",
 			transpiler: {
-				features: ["es2015"]
+				features: ["esnext"]
 			}
 		}];
 		let assetManager = new MockAssetManager(FIXTURES_DIR);
@@ -69,7 +69,7 @@ console.log(\`[…] $\{util}\`);
 				}]);
 
 				config[0].transpiler = {
-					features: ["es2015"]
+					features: ["esnext"]
 				};
 				assetManager = new MockAssetManager(FIXTURES_DIR);
 				return faucetJS(config, assetManager, { compact: true });
