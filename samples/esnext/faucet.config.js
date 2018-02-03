@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
 	manifest: {
 		file: "./dist/manifest.json"
