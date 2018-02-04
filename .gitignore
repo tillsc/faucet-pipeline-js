@@ -2,3 +2,4 @@
 /.eslintcache
 
 /samples/*/dist
+test/cli/test_typescript/.rpt2_cache
